@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+
+        .myBgColor{
+             background-color: #f6f3e6;
+        }
+
+        .headerNav ul li {
+            padding-left: 1rem;
+            padding: auto;
+        }
+
+        .headerNav ul li a {
+            color: #37372b;
+            text-decoration: none;
+        }
+
+        .headerNav ul li a:hover {
+            background-color: white;
+            
+        }
+        .headerActive{
+            text-decoration: underline; 
+        }
+
+        .myLogo{
+        width:50px;
+        height: 50px;
+        margin: auto;
+       ;
+    }
+
+
+       .bgFooter {
+            background-color: #bdac8a;
+        }
+
+        .mainFooter nav ul{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 1.2rem;
+            font: inherit;
+            vertical-align: baseline;
+            list-style: none;
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+        }
+
+        .mainFooter nav ul li {
+            padding-left: 1rem;
+        }
+
+        .mainFooter nav ul li a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .mainFooter nav ul li a:hover {
+            color: #37372b;
+        }
+        
+
+    </style>
+
+ 
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm myBgColor ">
+            <div class="container-fluid">
+                <figure >
+                    <img  class="myLogo"src="/img/logo_.png" alt="Logo">
+                </figure>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link headerActive" href="#">Evénements</a>
+                    </li>
+                </ul>
+                              </div>
+            </div>
+        </nav>
+
+    </header>
+
+       
+
+    <footer class="mainFooter">
+        <div class="bgFooter navbar navbar-expand-sm navbar-dark fixed-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">&copy; Copyright 2022</a>
+            </div>
+                <nav >
+                    <ul>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Vie privée</a></li>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                    </ul>
+                </nav>
+        </div>
+          
+                
+
+
+    </footer>
+    
+</body>
+</html>
