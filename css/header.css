@@ -1,0 +1,88 @@
+    nav{
+            width: 80%;
+            display: flex;
+            text-transform: uppercase;
+            font-weight:700;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+
+        nav a{
+            display: block; 
+            width: 400px; /*Largeur du menu hors contrôle du box-sizing*/
+            background: rgba(0, 0, 0,0.2);
+            text-align: center;
+            box-sizing: border-box;
+            padding: 20px;
+            color:#fff;
+            margin: 1px; /*On place une marge externe aux lien pour créer un petit espace entre eux*/
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover{
+            background: rgba(255, 255, 255,0.4) ;
+            color: #000;
+            transition: all 0.3s ease;
+            }
+
+        #ch{
+            display: none;
+        }
+
+            /*Désactiver les liens*/
+        .disabled {
+           /* pointer-events: none; */
+            color: #595656;
+             /* pointer-events: none; */
+            cursor: not-allowed;
+            color: #595656;
+            background:  #595656 ;
+        }
+
+       
+        
+
+        @media screen and (max-width:960px){
+            nav{
+                display: block;
+                position: absolute; /* pour survoler les élément qui viendront après */
+                transform: translate(-1000px,0); /*Délaplcement du menu vers la gauche ou la droite*/
+                transition: all 0.5s ease;
+            }
+
+            nav a{
+                display: block;
+                width: auto;
+               
+            }
+
+            #lab{
+                width: 30px;
+                height: 30px;
+                background: linear-gradient(to top,#fff 20%,transparent 20% 40%, #fff 40% 60%, transparent 60% 80%, #fff 80%);; 
+                margin:4px;
+                display: block; /*Car la balise est inline, il faut la rendre visible*/
+                
+            }
+
+            #ch:checked+nav{
+                transform: translate(0,0);
+                transition: all 0.5s ease;
+            }
+
+            nav a:hover{
+                background: rgba(255, 255, 255,0.7) ;
+                color: #000;
+                transition: all 0.3s ease;
+            }
+            nav{
+                font-weight:400;
+          
+             }
+            
+            
+
+
+        }

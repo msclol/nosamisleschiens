@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-           
+    <!--<link rel="stylesheet" href="public/css/header.css">-->
+    <script src="https://kit.fontawesome.com/adb4e7c780.js" crossorigin="anonymous"></script> <!--appelle des icons awesome-->
+    <title>Accueil</title>
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto+Mono:wght@200;300;700&family=Roboto:wght@300&display=swap');
 
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto+Mono:wght@200;300&family=Roboto:wght@300&display=swap');
+
+        *{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 12pt;
+        }
+
+        body{
+            margin: 0;
+            background-image: url(img/fond_.jpg);
+            background-size: cover;
+            min-height: 800px; /*Fixe une grandeur minimale à la page*/
+            
+            
+       }
+      
+    
+    
+        
     </style>
-
- 
-    <title>Nos Amis les Chiens</title>
-</head>
+</head>     
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm myBgColor ">
-            <div class="container-fluid">
-                <figure >
-                    <img  class="myLogo"src="img/logo_.png" alt="Logo">
-                </figure>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class=" navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                        <a class="nav-link headerActive" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="evens.html">Evénements</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <label for="ch" id="lab" ></label>
+        <input type="checkbox" id="ch">
+        <nav>
+            <a href="#"><i class="fa-solid fa-house"></i> Accueil</a>
+            <a href="#"><i class="fa-solid fa-question-circle"></i> évènements</a>
+           <!-- <a href="#" class="disabled"><i class="fa-solid fa-briefcase"></i> services</a>
+            <a href="#" class="disabled"><i class="fa-solid fa-handshake-simple"></i> partenaires</a>
+            <a href="#" class="disabled"><i class="fa-solid fa-envelope"></i> contact</a>
+            -->
+                        
+        </nav>       
 
     </header>
 
-       <main class="container-fluid my-3">
+
+    <section class="myContainer">
+        <div class="separate"></div>
+        <main class="container-fluid my-3">
         <section class="row mb-3">
             <div class="col-12 col-lg-8">
                 <img src="img/adoption_.jpg" alt="adoptez manu" class="img-fluid rounded">
             </div>
             <div class="col-12 col-lg-4 bg-light py-5 px-3">
-                <h1 class="display-5"><em>Refuge, l'Amour en plus.</em></h1>
+                
+                <h1 class="display-5">Refuge, l'Amour en plus.</h1>
                 <p class="lead">La création de refuges pour accueillir et proposer à l’adoption les animaux abandonnés et maltraités est une nécessité. Mais pour la Fondation Nos Amis les Chiens, il ne suffit pas de s’attacher à la survie des animaux dans l’attente de leur adoption, il est primordial que les chiens, mais aussi les chats accueillis le soient dans les meilleures conditions possibles, afin que leur quotidien ne se limite pas à un petit box de béton. 
                 </p>
                 <hr class="my-3">
@@ -59,7 +73,7 @@
                     <div class="card-body">
                         <h1 class="h4 card-title">Dispensaire... des soins pour tous</h1>
                         <p class="card-text">Parce qu’il est anormal que, par manque d’argent, des personnes se trouvent devant la triste alternative de voir souffrir leur animal sans pouvoir le soulager ou bien de l’abandonner en espérant que d’autres pourraient mieux le soigner, la Fondation Assistance Aux Animaux a ouvert un dispensaire de soins. 
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
+                       
                     </div>
                 </div>
             </div>
@@ -69,7 +83,7 @@
                     <div class="card-body">
                         <h1 class="h4 card-title">Un paradis pour les animaux âgés</h1>
                         <p class="card-text">Pour répondre à l’inquiétude des personnes âgées, soucieuses du devenir de leur animal lorsqu’elles viendront à disparaître, la Fondation assiste des maisons de retraite pour les animaux. Souvent âgés et difficilement adoptables.</p>
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
+                        
                     </div>
                 </div>
             </div>
@@ -81,7 +95,7 @@
                         <p class="card-text">La ferme du Hameau de Maray, est un véritable lieu de rencontre avec la vie. Ouverte aux classes et centre aérés depuis 2013, cette ferme permet aux petits citadins de prendre contact avec un milieu rural qui, pour la plupart d’entre eux est une véritable découverte.
                         La Fondation n’a pas attendu que les fermes pédagogiques soient à la mode pour lancer un important programme éducatif. Son but : apprendre aux enfants le respect des animaux, en éduquant ceux qui seront les décideurs de demain. Ils pourront ainsi agir en ayant un regard plus disposé et à l'écoute.
                         </p>
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
+                      
                     </div>
                 </div>
             </div>
@@ -94,29 +108,13 @@
                         Nos amis à quatre pattes sont maintenant prêts.
 
                         </p>
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
-                      
+                                             
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
-    <footer>
-        <nav>
-                <h5> class= href="#">&copy; Copyright 2022</h5>
-            <ul>
-                <li><a href="#">Cookies</a></li>
-                <li><a href="#">Vie privée</a></li>
-                <li><a href="#">Conditions d'utilisation</a></li>
-            </ul>
-        </nav>
-         
-          
-                
-
-
-    </footer>
+    </section>
     
 </body>
 </html>
