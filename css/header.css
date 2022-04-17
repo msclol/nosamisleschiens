@@ -37,8 +37,11 @@
            font-weight: 700;
            color: #fff;
            text-transform: uppercase;
-           justify-content: center;
-           align-items: center;
+           text-align: center;
+           
+           /*border: 1px solid blue;*/
+           
+          
         }
        .banniere a:hover{
            color: red;
@@ -46,11 +49,8 @@
 
        }
       
-      
-   
         nav{
             width: 80%;
-            position:relative;
             display: flex;
             text-transform: uppercase;
             font-weight:700;
@@ -137,6 +137,14 @@
 
         
         @media screen and(max-width: 576px){
+            /*Gestion du titre pour les petits écrans*/
+            .banniere{
+                             
+                /*border: 1px solid blue;*/
+                display: none;
+           
+          
+        }
               
              
         
