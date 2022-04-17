@@ -13,16 +13,51 @@
             min-height: 700px; /*Fixe une grandeur minimale à la page*/
                         
        }
+
+       .banniere-head{
+           display: grid;
+           grid-template-columns: 100px 1fr;
+           height: 66px;
+           width: 100%;
+           background:rgba(0, 0, 0,0.2) ;
+           margin: 0;
+           padding: 0;
+           box-shadow:2px 4px 10px hsla(0, 0%, 0%, 0.8);;
+           
+        }
+        .logo {
+           height: 70px;
+           width: 70px;
+           border-radius: 50%;
+           align-items: flex-start;
+           box-shadow:2px 4px 10px hsla(0, 0%, 0%, 0.5);
+       }
+       .banniere{
+           font-size: 2rem ;
+           font-weight: 700;
+           color: #fff;
+           text-transform: uppercase;
+           justify-content: center;
+           align-items: center;
+        }
+       .banniere a:hover{
+           color: red;
+
+
+       }
+      
       
    
         nav{
             width: 80%;
+            position:relative;
             display: flex;
             text-transform: uppercase;
             font-weight:700;
             margin-left: auto;
             margin-right: auto;
             justify-content: center;
+            
            
         }
 
@@ -43,7 +78,15 @@
             background: rgba(255, 255, 255,0.4) ;
             color: #000;
             transition: all 0.3s ease;
+            box-shadow:2px 4px 10px hsla(0, 0%, 0%, 0.8);
             }
+        
+        .active{
+            color: #000;
+        }
+        active a:hover{
+            color:#fff;
+        }
 
         #ch{
             display: none;
@@ -73,7 +116,6 @@
                 background: linear-gradient(to top,#fff 20%,transparent 20% 40%, #fff 40% 60%, transparent 60% 80%, #fff 80%);; 
                 margin:4px;
                 display: block; /*Car la balise est inline, il faut la rendre visible*/
-                
             }
 
             #ch:checked+nav{
@@ -90,8 +132,13 @@
             nav{
                 font-weight:400;
             }
-            
-            
-
-
+         
         }
+
+        
+        @media screen and(max-width: 576px){
+              
+             
+        
+        }
+    
