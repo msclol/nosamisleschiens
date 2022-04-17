@@ -10,18 +10,19 @@
             margin: 0;
             background-image: url(../img/fond_.jpg);
             background-size: cover;
-            min-height: 800px; /*Fixe une grandeur minimale à la page*/
+            min-height: 700px; /*Fixe une grandeur minimale à la page*/
                         
        }
       
    
-   nav{
+        nav{
             width: 80%;
             display: flex;
             text-transform: uppercase;
             font-weight:700;
             margin-left: auto;
             margin-right: auto;
+            justify-content: center;
            
         }
 
@@ -48,16 +49,7 @@
             display: none;
         }
 
-            /*Désactiver les liens*/
-        .disabled {
-           /* pointer-events: none; */
-            color: #595656;
-             /* pointer-events: none; */
-            cursor: not-allowed;
-            color: #595656;
-            background:  #595656 ;
-        }
-
+          
        
         
 
@@ -65,7 +57,7 @@
             nav{
                 display: block;
                 position: absolute; /* pour survoler les élément qui viendront après */
-                transform: translate(-1000px,0); /*Délaplcement du menu vers la gauche ou la droite*/
+                transform: translate(-1000px,0); /*Déplacement du menu vers la gauche ou la droite*/
                 transition: all 0.5s ease;
             }
 
@@ -94,10 +86,10 @@
                 color: #000;
                 transition: all 0.3s ease;
             }
+
             nav{
                 font-weight:400;
-          
-             }
+            }
             
             
 
