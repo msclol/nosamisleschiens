@@ -5,34 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/header.css">
   
     <title>Evènements</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar  navbar-expand-sm myBgColor">
-            <div class="container-fluid">
-                <figure >
-                    <img  class="myLogo"src="img/logo_.png" alt="Logo">
-                </figure>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index2.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link headerActive" href="#">Evénements</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
+     <header>
+            <div class="banniere-head">
+                <img src="img/joli_chien.jpg" alt="logo de l'association" class="logo" >
+                <div ><span class="text-banniere">nos amis les chiens</span></div>
+            </div>-
+            <label for="ch" id="lab" ></label>
+            <input type="checkbox" id="ch"> 
+            <nav class="navHeader">
+                <a href="#"><i class="fa-solid fa-house"></i> Accueil</a>
+                <a href="#" id="navActive"><i class="fa-solid fa-question-circle"></i> évènements</a>
+            </nav> 
+        </header>
+   
 
         <main class="container-fluid my-3">
         <section class="row mb-3">
@@ -41,7 +31,7 @@
                 <p class="lead">Adhérer à l'Association <strong>Nos amis les chiens </strong>, c'est porter la voix des animaux haut et fort, défendre le bien-être animal et soutenir nos grands combats éthiques. Pour participer à l’élection du prochain Conseil d’Administration, l’Assemblée Générale aura lieu le 25 juin 2022, prenez votre adhésion 2022 avant le 15 mai. 
                 </p>
                 <hr class="my-4">
-                <a href="#" class="btn btn-primary">En savoir plus</a>
+                <a href="#" class="btn btn-success">Adhérer</a>
             </div>
             <div class="col-12 col-lg-8">
                 <table class="table">
@@ -158,28 +148,23 @@
         </section>
     </main>
         
-           
-
-       
-
-    <footer class="mainFooter">
-        <div class="bgFooter navbar navbar-expand-sm navbar-dark fixed-bottom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">&copy; Copyright 2022</a>
-            </div>
-                <nav >
-                    <ul>
-                        <li><a href="#">Cookies</a></li>
-                        <li><a href="#">Vie privée</a></li>
-                        <li><a href="#">Conditions d'utilisation</a></li>
-                    </ul>
-                </nav>
-        </div>
           
+
+      <hr>
+
+        <footer>
+            <nav class="navFooter">
+                <p> &copy; Copyright 2022</p>
+                <div class="f-arrange"> 
+                    <a href="#">Contacts</a>
+                    <a href="#">A propos</a>
+                    <a href="#">Conditions d'utilisation</a>
+                </div>
+                    
                 
+            </nav>
 
-
-    </footer>
+        </footer>
     
 </body>
 </html>
