@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/header.css">
-  
+    <link rel="stylesheet" href="css/header.css">
+    <script src="https://kit.fontawesome.com/adb4e7c780.js" crossorigin="anonymous"></script> <!--appelle des icons awesome-->
     <title>Evènements</title>
 </head>
-<body>
+<body class="img-flouter" >
      <header>
             <div class="banniere-head">
                 <img src="img/joli_chien.jpg" alt="logo de l'association" class="logo" >
@@ -18,8 +18,8 @@
             <label for="ch" id="lab" ></label>
             <input type="checkbox" id="ch"> 
             <nav class="navHeader">
-                <a href="#"><i class="fa-solid fa-house"></i> Accueil</a>
-                <a href="#" id="navActive"><i class="fa-solid fa-question-circle"></i> évènements</a>
+                <a href="index.html" class="fs-5"><i class="fa-solid fa-house"></i> Accueil</a>
+                <a href="#" id="navActive" class="fs-5"><i class="fa-solid fa-question-circle"></i> évènements</a>
             </nav> 
         </header>
    
@@ -27,125 +27,144 @@
         <main class="container-fluid my-3">
         <section class="row mb-3">
              <div class="col-12 col-lg-4 bg-light py-5 px-3">
-                <h1 class="display-6"> Campagne d'Adhésion 2022</h1>
-                <p class="lead">Adhérer à l'Association <strong>Nos amis les chiens </strong>, c'est porter la voix des animaux haut et fort, défendre le bien-être animal et soutenir nos grands combats éthiques. Pour participer à l’élection du prochain Conseil d’Administration, l’Assemblée Générale aura lieu le 25 juin 2022, prenez votre adhésion 2022 avant le 15 mai. 
+                <h1 class="display-4"> Campagne d'Adhésion 2022</h1>
+                <p class="lead">Adhérer à l'Association amis les chiens, c'est porter la voix des animaux haut et fort, défendre le bien-être animal et soutenir nos grands combats éthiques. Pour participer à l’élection du prochain Conseil d’Administration, l’Assemblée Générale aura lieu le 25 juin 2022, prenez votre adhésion 2022 avant le 15 mai. 
                 </p>
-                <hr class="my-4">
+                <hr class="my-3">
                 <a href="#" class="btn btn-success">Adhérer</a>
             </div>
             <div class="col-12 col-lg-8">
-                <table class="table">
-                    <thead>
+                <table class="table text-center table-striped table-bordered table-hover">
+
+                    <caption class="caption-top  text-center fs-4">PROGRAMME 2022</caption>
+                    <thead class="text-uppercase table-dark">
                     <tr>
-                        <th>Evènements</th>
+                        <th>évènements</th>
                         <th>Lieux</th>
-                        <th>Places restants</th>
+                        <th>Places restantes</th>
                         <th>Dates</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="blur-1">
                     <tr>
-                        <td>Campagne d'adhésion</td>
+                        <td>campagne d'adhésion</td>
                         <td>Maray</td>
-                        <td>58</td>
+                        <td class="text-danger">58</td>
                         <td>22/04/2022</td>
                     </tr>
                     <tr>
-                        <td>Conseil d'administration</td>
+                        <td>conseil d'administration</td>
                         <td>Marseille</td>
-                        <td>12</td>
+                        <td class="text-danger">12</td>
                          <td>23/04/2022</td>
 
                     </tr>
                     <tr>
-                        <td>Rencontre et échange 2022</td>
+                        <td>rencontre et échange 2022</td>
                         <td>Mulhouse</td>
-                        <td>12</td>
+                        <td class="text-danger">12</td>
                         <td>12/05/2022</td>
                     </tr>
                     <tr>
-                        <td>Rencontre 2022</td>
+                        <td>rencontre 2022</td>
                         <td>Paris</td>
-                        <td>25</td>
+                        <td class="text-danger">25</td>
                         <td>17/05/2022</td>
                     </tr>
                     <tr>
-                        <td>Rencontre 2022</td>
+                        <td>rencontre 2022</td>
                         <td>Saint-Etienne</td>
-                        <td>75</td>
+                        <td class="text-danger">75</td>
                         <td>22/05/2022</td>
                     </tr>
                     <tr>
-                        <td>Rencontre 2022</td>
+                        <td>rencontre 2022</td>
                         <td>Paris</td>
-                        <td>15</td>
+                        <td class="text-danger">15</td>
                         <td>06/06/2022</td>
                     </tr>
                     <tr>
-                        <td>Rencontre 2022</td>
+                        <td>rencontre 2022</td>
                         <td>Salbris</td>
-                        <td>35</td>
+                        <td class="text-danger">35</td>
                         <td>11/06/2022</td>
                     </tr>
                     <tr>
-                        <td>Rencontre 2022</td>
+                        <td>rencontre 2022</td>
                         <td>Paris</td>
-                        <td>25</td>
+                        <td class="text-danger">25</td>
                         <td>21/06/2022</td>
                     </tr>
                     </tbody>
                 </table>
             </div>
-                            </div>
+        </div>
            
         </section>
-        <section class="row gy-3">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="img/hp-dispensaires.png" alt="Le Dispensaire" class="card-img-top">
-                    <div class="card-body">
-                        <h1 class="h4 card-title">Dispensaire... des soins pour tous</h1>
-                        <p class="card-text">Parce qu’il est anormal que, par manque d’argent, des personnes se trouvent devant la triste alternative de voir souffrir leur animal sans pouvoir le soulager ou bien de l’abandonner en espérant que d’autres pourraient mieux le soigner, la Fondation Assistance Aux Animaux a ouvert un dispensaire de soins. 
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="img/hp-retraites.png" alt="Paradis" class="card-img-top">
-                    <div class="card-body">
-                        <h1 class="h4 card-title">Un paradis pour les animaux âgés</h1>
-                        <p class="card-text">Pour répondre à l’inquiétude des personnes âgées, soucieuses du devenir de leur animal lorsqu’elles viendront à disparaître, la Fondation assiste des maisons de retraite pour les animaux. Souvent âgés et difficilement adoptables.</p>
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="img/ferme01.jpg" alt="Ferme" class="card-img-top">
-                    <div class="card-body">
-                        <h1 class="h4 card-title">Une Ferme pédagogique.</h1>
-                        <p class="card-text">La ferme du Hameau de Maray, est un véritable lieu de rencontre avec la vie. Ouverte aux classes et centre aérés depuis 2013, cette ferme permet aux petits citadins de prendre contact avec un milieu rural qui, pour la plupart d’entre eux est une véritable découverte.
-                        La Fondation n’a pas attendu que les fermes pédagogiques soient à la mode pour lancer un important programme éducatif. Son but : apprendre aux enfants le respect des animaux, en éduquant ceux qui seront les décideurs de demain. Ils pourront ainsi agir en ayant un regard plus disposé et à l'écoute.
-                        </p>
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="img/chien_ukraine.png" alt="Vidéo" class="card-img-top">
-                    <div class="card-body">
-                        <h1 class="h4 card-title">Chien rescapé de la guerre en Ukraine</h1>
-                        <p class="card-text">Depuis maintenant un mois, notre convoi solidaire est rentré de Cracovie (Pologne), après y avoir déposé plusieurs tonnes de croquettes, couvertures, cages de transport et matériel vétérinaire, avec une vingtaine de chiens, tous stigmatisés physiquement et psychiquement par cette guerre Placés depuis en quarantaine obligatoire dans nos refuges franciliens de Tartompion et de Tournaucoinvilliers (Yvelines), ils ont été pris en charge médicalement et continuent un suivi régulier auprès de nos vétérinaires. Vous êtes désireux et en capacité d’offrir une chance à l’un d’entre eux ? Nous vous remercions de bien vouloir envoyer votre demande par e-mail.
-                        Nos amis à quatre pattes sont maintenant prêts.
+      
 
-                        </p>
-                        <a href="#" class="btn btn-primary">Lire la suite</a>
+        <section class="container-fluid my-3">
+            <section class="row">
+                <article class="col-12 col-md-6 col-lg-3">
+                    <div class="card my-3">
+                        <div class="card-body">
+                            <h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </div>
+
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-3">
+                    <div class="card my-3">
+                        <div class="card-body">
+                            <h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-3">
+                    <div class="card my-3">
+                        <div class="card-body">
+                            <h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                
+                <article class="col-12 col-md-6 col-lg-3">
+                    <div class="card my-3">
+                        <div class="card-body">
+                            <h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis eaque qui tempore provident minima!
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+            </section>
         </section>
+
+       
+
+
+
+
+
     </main>
         
           
@@ -154,14 +173,14 @@
 
         <footer>
             <nav class="navFooter">
-                <p> &copy; Copyright 2022</p>
-                <div class="f-arrange"> 
-                    <a href="#">Contacts</a>
-                    <a href="#">A propos</a>
-                    <a href="#">Conditions d'utilisation</a>
-                </div>
-                    
                 
+                
+                    <ul class="list-unstyled">
+                        <li class="list-inline-item"><a href="#">Contacts</a></li>
+                        <li class="list-inline-item"><a href="#">A propos</a></li>
+                        <li class="list-inline-item"><a href="#">Conditions d'utilisation</a></li>
+                    </ul>
+              
             </nav>
 
         </footer>

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header.css">
     <!--<link rel="stylesheet" href="public/css/header.css">-->
     <script src="https://kit.fontawesome.com/adb4e7c780.js" crossorigin="anonymous"></script> <!--appelle des icons awesome-->
     <title>Accueil</title>
@@ -20,8 +20,8 @@
             <label for="ch" id="lab" ></label>
             <input type="checkbox" id="ch"> 
             <nav class="navHeader">
-                <a href="#" id="navActive"><i class="fa-solid fa-house"></i> Accueil</a>
-                <a href="#"><i class="fa-solid fa-question-circle"></i> évènements</a>
+                <a href="#" id="navActive" class="fs-5"><i class="fa-solid fa-house"></i> Accueil</a>
+                <a href="evens.html" class="fs-5"><i class="fa-solid fa-question-circle"></i> évènements</a>
             </nav> 
         </header>
     
@@ -93,16 +93,15 @@
 
         <hr>
 
+       
         <footer>
             <nav class="navFooter">
-                <p> &copy; Copyright 2022</p>
-                <div class="f-arrange"> 
-                    <a href="#">Contacts</a>
-                    <a href="#">A propos</a>
-                    <a href="#">Conditions d'utilisation</a>
-                </div>
-                    
-                
+                    <ul class="list-unstyled">
+                        <li class="list-inline-item"><a href="#">Contacts</a></li>
+                        <li class="list-inline-item"><a href="#">A propos</a></li>
+                        <li class="list-inline-item"><a href="#">Conditions d'utilisation</a></li>
+                    </ul>
+              
             </nav>
 
         </footer>
