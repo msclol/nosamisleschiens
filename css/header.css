@@ -154,17 +154,12 @@
         }
         .navFooter a:hover{
             background: rgba(255, 255, 255,0.4) ;
-            color: #000;
+            color: rgb(62, 59, 59);
             transition: all 0.3s ease;
             box-shadow:2px 4px 10px hsla(0, 0%, 0%, 0.8);
             }
 
 
-      
-
-       
-
-          
 
 
 
